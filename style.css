@@ -80,7 +80,7 @@ header {
     padding-inline: 16px;
     padding-top: 24px;
     margin-bottom: 12px;
-}    
+}
 
 .product-section-heading h2 {
     font-size: 20px;
@@ -122,3 +122,104 @@ header {
     font-weight: 400;
 }
 
+nav {
+    padding: 8px 16px 40px;
+    max-width: 100%;
+}
+
+.footer-div {
+    display: flex;
+    flex-direction: column;
+    margin-top: 32px;
+}
+
+.footer-elements {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-element-section {
+    list-style: none;
+    margin-bottom: 32px;
+    max-width: 100%;
+}
+
+.footer-list-heading {
+    font-size: 16px;
+    font-weight: 700;
+    font-family: spotify-bold;
+}
+
+.footer-element-section li {
+    font-family: spotify-regular;
+    color: #b3b3b3;
+    margin-block: 8px;
+}
+
+.social-media-section {
+    margin-bottom: 40px;
+    display: flex;
+    gap: 16px;
+}
+
+.social-media {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(41, 41, 41);
+}
+
+hr {
+    border-color: rgba(255, 255, 255, 0.1);
+    border: 0;
+    border-block-start: 1px solid #292929;
+    margin-block-end: 20px;
+}
+
+.footer-navigation {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 16px;
+}
+
+.footer-info-section {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-info-items {
+    margin-right: 16px;
+    margin-bottom: 8px;
+    font-family: spotify-regular;
+    font-size: 14px;
+    color: #b3b3b3;
+}
+
+.footer-info-items span {
+    margin-bottom: 8px;
+}
+
+.copy-right {
+    font-family: spotify-regular;
+    font-size: 14px;
+    color: #b3b3b3;
+}
+
+.english-section {
+    padding-top: 16px;
+}
+
+.english-section button {
+    padding: 4px 16px 4px 36px;
+    border: 1px solid #7c7c7c;
+    background-color: transparent;
+    border-radius: 9999px;
+}
+
+.english-section button span {
+    color: #fff;
+}
