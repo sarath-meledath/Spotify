@@ -50,7 +50,7 @@ header {
     align-items: center;
 }
 
-.header-mobile-section {
+.header-mobile-menu-section {
     display: flex;
 }
 
@@ -58,13 +58,13 @@ header {
     font-family: spotify-bold;
     font-size: 13px;
     font-weight: 700;
-    border-radius: 9999px;
+    border-radius: 50px;
     min-block-size: 32px;
     padding-inline: 16px;
     border: none;
 }
 
-.header-mobile-three-line {
+.header-mobile-menu-icon {
     background: transparent;
     border: none;
     margin-inline-start: 16px;
@@ -89,9 +89,8 @@ header {
 
     .header-desktop-view {
         display: flex;
-        align-items: center;
+        align-items: center;  
         padding: 8px;
-        position: relative;
         width: 100%;
     }
 
@@ -114,7 +113,7 @@ header {
         border: none;
         padding: 12px;
         margin-left: 8px;
-        border-radius: 9999px;
+        border-radius: 50px;
         display: flex;
         align-items: center;
     }
@@ -128,12 +127,12 @@ header {
         background-color: #1f1f1f;
         border: none;
         padding: 12px;
-        border-radius: 9999px;
+        border-radius: 50px;
         display: flex;
         align-items: center;
     }
 
-    .desktop-sidebar-menu {
+    .desktop-menu-section {
         display: flex;
         justify-content: flex-end;
         align-items: center;
@@ -200,8 +199,61 @@ header {
         display: flex;
         align-items: center;
         border: none;
-        border-radius: 9999px;
+        border-radius: 50px;
         min-block-size: 48px;
     }
+    
+    .desktop-input-section {
+        display: none;
+    }
+
+    .spotify-search-bar-icon {
+        display: none;
+    }
+
+}
+
+@media screen and (min-width: 1069px) {
+    
+    .desktop-search-button {
+        width: 100%;
+        padding-right: 16px;
+    }
+
+    .desktop-search-img {
+        padding-inline-end: 12px;
+    }
+
+    .desktop-input-section {
+        display: flex;
+        width: 100%;
+    }
+
+    .desktop-search-button input {
+        display: block;
+        background-color: transparent;
+        border: none;
+        width: 100%;
+        padding-inline-end: 8px;
+    }
+
+    .desktop-search-button input::placeholder {
+        font-family: spotify-regular;
+        font-size: 16px;
+        font-weight: 400;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        color: #b3b3b3;
+    }
+
+    .spotify-search-bar-icon {
+        display: block;
+
+    }
+
+    .spotify-search-bar-icon img {
+    }
+
 
 }
