@@ -118,11 +118,6 @@ header {
         align-items: center;
     }
 
-    .desktop-search-section {
-        padding-inline: 8px;
-        width: 100%;
-    }
-
     .desktop-search-button {
         background-color: #1f1f1f;
         border: none;
@@ -130,6 +125,7 @@ header {
         border-radius: 50px;
         display: flex;
         align-items: center;
+        margin-inline: 8px;
     }
 
     .desktop-menu-container {
@@ -219,7 +215,7 @@ header {
         text-decoration: none;
     }
 
-    .desktop-input-section {
+    .desktop-input-container {
         display: none;
     }
 
@@ -231,26 +227,22 @@ header {
 
 @media screen and (min-width: 1069px) {
 
-    .desktop-search-section {
-        transition: box-shadow .22s ease-in, background .22s ease-in, color .22s ease-in, -webkit-box-shadow .22s ease-in;
-        max-width: 474px;
-    }
-
     .desktop-search-button {
         width: 100%;
         padding-right: 16px;
         padding-top: 11px;
+        max-width: 474px;
     }
 
     .desktop-search-img {
         padding-inline-end: 12px;
         position: relative;
         top: 1px;
-    }    
+    }
 
     .desktop-input-container {
         display: flex;
-        width: 100%;    
+        width: 100%;
         position: relative;
         top: 2px;
     }
@@ -280,9 +272,7 @@ header {
         height: 25.05px;
     }
 
-    .spotify-search-bar-icon img {
-
-    }
+    .spotify-search-bar-icon img {}
 
 
 }
