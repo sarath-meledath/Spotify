@@ -66,8 +66,9 @@ header {
   background: transparent;
   border: none;
   margin-inline-start: 16px;
-  position: relative;
-  top: 1px;
+  height: 100%;
+  display: flex;
+  align-items: center;
 }
 
 .header-desktop-view {
