@@ -94,7 +94,6 @@ body {
     }
 
     .side-navigation-bar {
-        position: relative;
         display: flex;
         background-color: #121212;
         border-radius: 8px;
@@ -114,7 +113,6 @@ body {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        position: relative;
         padding: 16px 14px 8px 16px;
         align-items: center;
         color: #ffffff;
@@ -302,7 +300,7 @@ body {
     }
 
     .footer-sign-up-content {
-        margin: 0 0 0 4px;
+        margin: 0 0 4px;
         color: #fff;
     }
 
