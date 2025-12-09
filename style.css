@@ -175,11 +175,8 @@ header {
     align-items: center;
   }
 
-  .desktop-sign-button {
+  .desktop-sign-link {
     padding: 4px 16px 4px 8px;
-  }
-
-  .desktop-sign-button a {
     font-family: spotify-bold;
     font-size: 14px;
     font-weight: 700;
