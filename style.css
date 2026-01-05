@@ -25,7 +25,7 @@ body {
 }
 
 .spotify-content-container {
-  margin-top: 56px;
+  /* margin-top: 56px; */
   padding-bottom: 70px;
   display: flex;
   margin-inline: 8px;
@@ -338,4 +338,3 @@ body {
     background-color: #fff;
   }
 }
-
