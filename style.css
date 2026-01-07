@@ -94,6 +94,7 @@ body {
     grid-template-columns: auto 1fr;
     grid-template-rows: auto auto 1fr auto;
     height: 100vh;
+    gap: 8px;
   }
 
   .side-navigation-bar {
@@ -263,7 +264,6 @@ body {
 
   .product-content-wrapper {
     grid-area: main-view / main-view / main-view / right-sidebar;
-    max-height: 760px;
     overflow: auto;
   }
 
