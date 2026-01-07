@@ -25,9 +25,7 @@ body {
 }
 
 .spotify-content-container {
-  display: flex;
   margin-inline: 8px;
-  gap: 8px;
   padding-block: 8px;
 }
 
@@ -78,6 +76,10 @@ body {
 }
 
 .side-navigation-bar {
+  display: none;
+}
+
+.footer-sign-up-bar{
   display: none;
 }
 
