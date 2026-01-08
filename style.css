@@ -67,9 +67,13 @@ body {
   width: 152px;
 }
 
-.product-details {
+.product-details-wrapper {
   font-family: spotify-regular;
   font-weight: 400;
+}
+
+.product-details {
+  display: none;
 }
 
 .side-navigation-bar {
@@ -291,6 +295,19 @@ body {
     border-radius: 80px !important;
   }
 
+  .product-details {
+    display: flex;
+    flex-wrap: wrap;
+    font-family: spotify-regular;
+    font-size: 14px;
+    color: #b3b3b3;
+  }
+
+  .product-details a {
+    color: #b3b3b3;
+    text-decoration: none;
+  }
+
   .footer-sign-up-bar {
     background-color: #000;
     grid-area: now-playing-bar;
@@ -313,7 +330,9 @@ body {
   .footer-sign-up-heading {
     font-weight: 700;
     font-size: 14px;
+    font-weight: 400;
     font-family: spotify-bold;
+
   }
 
   .footer-sign-up-text {
