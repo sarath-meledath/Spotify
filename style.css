@@ -30,14 +30,11 @@ body {
 }
 
 .product-section-heading {
+  font-size: 20px;
+  font-family: spotify-title;
   padding-inline: 16px;
   padding-top: 24px;
   margin-bottom: 12px;
-}
-
-.product-section-heading h2 {
-  font-size: 20px;
-  font-family: spotify-title;
 }
 
 .product-scroll {
@@ -279,9 +276,6 @@ body {
 
   .product-section-heading {
     padding-inline: 40px;
-  }
-
-  .product-section-heading h2 {
     font-size: 24px;
   }
 
@@ -308,6 +302,7 @@ body {
     padding-block: 11px 7px;
     padding-inline: 15px 24px;
     align-items: center;
+    border-radius: 8px;
   }
 
   .footer-sign-up-content {
@@ -338,5 +333,6 @@ body {
     padding-inline: 32px;
     color: #000;
     background-color: #fff;
+    border: none;
   }
 }
