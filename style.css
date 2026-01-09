@@ -271,16 +271,17 @@ body {
   .product-content-wrapper {
     grid-area: main-view / main-view / main-view / right-sidebar;
     overflow: auto;
+    background-color: #121212;
+    border-radius: 8px;
   }
 
   .product-content {
-    background-color: #121212;
-    border-radius: 8px;
     overflow: hidden !important;
     overflow-y: scroll !important;
     grid-area: main-view / main-view / main-view / right-sidebar;
+    padding: 4px 0px 32px;
   }
-
+  
   .product-section-heading {
     padding-inline: 40px;
     font-size: 24px;
@@ -313,6 +314,64 @@ body {
 
   .product-details-name {
     display: none;
+  }
+
+  .side-scroll-footer {
+    background-color: #121212;
+    padding-top: 40px;
+  }
+
+  .horizontal-line {
+    margin-left: clamp(16px,16px + (100cqw - 600px)/424*8,24px);
+    margin-right: clamp(16px,16px + (100cqw - 600px)/424*8,24px);
+    margin-block: 24px;
+    border-block-start: 0px solid gray;
+  }
+
+  .side-scroll-footer-nav {
+    padding: 8px 16px 40px;
+    width: 100%; 
+  }
+
+  .side-scroll-elements {
+    display: flex;
+    flex-direction: column;
+    margin-top: 32px;
+  }
+
+  .side-scroll-footer-wrapper {
+    display: flex;
+    flex-flow: column wrap;
+    flex-direction: row;
+  }
+
+  .side-scroll-footer-section {
+    width: 40%;
+    margin-right: 24px;
+    margin-bottom: 32px;
+  }
+
+  .side-scroll-footer-section ul {
+    color: #b3b3b3;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .side-scroll-footer-section ul p {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 700;
+    font-family: spotify-bold;
+  }
+
+  .side-scroll-footer-section ul a {
+    color: #b3b3b3;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: spotify-regular;
+    margin-block: 8px;
+    width: fit-content;
   }
 
   .footer-sign-up-bar {
