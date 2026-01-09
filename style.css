@@ -83,7 +83,7 @@ body {
   display: none;
 }
 
-.footer-sign-up-bar{
+.footer-sign-up-bar {
   display: none;
 }
 
@@ -221,7 +221,7 @@ body {
     grid-area: main-view / main-view / main-view / right-sidebar;
     padding: 4px 0px 32px;
   }
-  
+
   .product-section-heading {
     padding-inline: 40px;
     font-size: 24px;
@@ -255,5 +255,4 @@ body {
   .product-details-name {
     display: none;
   }
-
- }
+}
