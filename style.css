@@ -82,10 +82,13 @@ header {
   padding-block: 8px;
 }
 
-.product-section-heading {
+.product-heading-wrapper{
   padding-inline: 16px;
   padding-top: 24px;
   margin-bottom: 12px;
+}
+
+.product-section-heading {
   font-size: 20px;
   font-family: spotify-title;
 }
@@ -273,7 +276,6 @@ header {
     display: flex;
     gap: 8px;
     margin-inline: 8px;
-    height: 100vh;
     gap: 8px;
   }
 
@@ -284,7 +286,7 @@ header {
     flex-direction: column;
     min-width: 280px;
     max-width: 420px;
-    height: 100%;
+    height: 760px;
     overflow: hidden;
   }
 
@@ -387,6 +389,7 @@ header {
     overflow: auto;
     background-color: #121212;
     border-radius: 8px;
+    height: 760px;
   }
 
   .product-content {
@@ -396,8 +399,11 @@ header {
     scrollbar-width: none;
   }
 
-  .product-section-heading {
+  .product-heading-wrapper {
     padding-inline: 40px;
+  }
+
+  .product-section-heading {
     font-size: 24px;
   }
 
