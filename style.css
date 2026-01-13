@@ -158,7 +158,6 @@ header {
     align-items: center;
     padding: 8px;
     width: 100%;
-    grid-area: top-banner / 1 / global-nav / -1;
   }
 
   .header-desktop-logo {
@@ -217,7 +216,6 @@ header {
   }
 
   .desktop-premium-link:nth-child(3) {
-  .desktop-premium-link:nth-child(3){
     padding-right: 16px;
   }
 
@@ -226,7 +224,6 @@ header {
     display: flex;
     gap: 8px;
     border-left: 1px solid;
-    border-left: 1px solid ;
   }
 
   .desktop-install-button a {
@@ -481,7 +478,6 @@ header {
     display: none;
   }
 }
-}
 
 @media screen and (min-width: 1069px) {
   .desktop-search-button {
@@ -538,6 +534,7 @@ header {
   .product-scroll {
     margin-bottom: 18px;
   }
+
 
 }
 
