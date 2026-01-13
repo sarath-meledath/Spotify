@@ -336,6 +336,7 @@ header {
     gap: 8px;
     padding: 0 8px 8px;
     min-height: 100%;
+    margin-top: 24px;
   }
 
   .empty-div {
