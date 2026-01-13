@@ -81,44 +81,44 @@ header {
   gap: 8px;
 }
 
-.product-heading-wrapper {
+.song-heading-wrapper {
   padding-inline: 16px;
   padding-top: 24px;
   margin-bottom: 12px;
 }
 
-.product-section-heading {
+.song-section-heading {
   font-size: 20px;
   font-family: spotify-title;
 }
 
-.product-heading-wrapper a {
+.song-heading-wrapper a {
   display: none;
 }
 
-.product-scroll {
+.song-scroll {
   display: flex;
   overflow-x: scroll;
   scrollbar-width: none;
   scroll-snap-type: x mandatory;
 }
 
-.product-card {
+.song-card {
   display: flex;
   flex-direction: column;
   row-gap: 8px;
   padding: 8px;
 }
 
-.product-card:first-child {
+.song-card:first-child {
   margin-inline-start: 8px;
 }
 
-.product-card:last-child {
+.song-card:last-child {
   margin-inline-end: 8px;
 }
 
-.product-card img {
+.song-card img {
   aspect-ratio: 1 / 1;
   object-fit: cover;
   border-radius: 4px;
@@ -126,7 +126,7 @@ header {
   width: 152px;
 }
 
-.product-details-wrapper p {
+.song-details-wrapper p {
   font-family: spotify-regular;
   font-weight: 400;
 }
@@ -135,7 +135,7 @@ header {
   display: none;
 }
 
-.product-details {
+.song-details {
   display: none;
 }
 
@@ -329,7 +329,7 @@ header {
     align-items: center;
   }
 
-  .side-navigation-product {
+  .side-navigation-song {
     display: flex;
     align-items: stretch;
     flex-direction: column;
@@ -344,7 +344,7 @@ header {
     border: none;
   }
 
-  .side-navigation-product-card {
+  .side-navigation-song-card {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -375,7 +375,7 @@ header {
     font-family: spotify-regular;
   }
 
-  .side-navigation-product-card button {
+  .side-navigation-song-card button {
     font-weight: 700;
     font-size: 14px;
     font-family: spotify-bold;
@@ -387,21 +387,21 @@ header {
     min-block-size: 32px;
   }
 
-  .product-content-wrapper {
+  .song-content-wrapper {
     overflow: auto;
     background-color: #121212;
     border-radius: 8px;
     height: 760px;
   }
 
-  .product-content {
+  .song-content {
     overflow: hidden !important;
     overflow-y: scroll !important;
     padding: 0px 0px 32px;
     scrollbar-width: none;
   }
 
-  .product-heading-wrapper {
+  .song-heading-wrapper {
     padding-inline: 40px;
     display: flex;
     justify-content: space-between;
@@ -409,11 +409,11 @@ header {
     margin-bottom: 8px;
   }
 
-  .product-section-heading {
+  .song-section-heading {
     font-size: 24px;
   }
 
-  .product-heading-wrapper a {
+  .song-heading-wrapper a {
     color: #b3b3b3;
     text-decoration: none;
     font-weight: 700;
@@ -426,19 +426,19 @@ header {
     top: 1px;
   }
 
-  .product-scroll {
+  .song-scroll {
     margin-bottom: 10px;
   }
 
-  .product-card {
+  .song-card {
     padding: 12px;
   }
 
-  .product-card:first-child {
+  .song-card:first-child {
     margin-inline-start: 28px;
   }
 
-  .product-card img {
+  .song-card img {
     height: 153.72px;
     width: 153.72px;
   }
@@ -447,19 +447,19 @@ header {
     border-radius: 90px !important;
   }
 
-  .product-details-wrapper {
+  .song-details-wrapper {
     display: flex;
     flex-direction: column;
     gap: 4px;
   }
 
-  .product-details-wrapper p {
+  .song-details-wrapper p {
     font-family: spotify-regular;
     font-size: 16px;
     font-weight: 400;
   }
 
-  .product-details {
+  .song-details {
     display: flex;
     flex-wrap: wrap;
     font-family: spotify-regular;
@@ -468,12 +468,12 @@ header {
     line-height: 22px;
   }
 
-  .product-details a {
+  .song-details a {
     color: #b3b3b3;
     text-decoration: none;
   }
 
-  .product-details-name {
+  .song-details-name {
     display: none;
   }
 }
@@ -524,12 +524,12 @@ header {
 }
 
 @media screen and (min-width: 1440px) {
-  .product-card img {
+  .song-card img {
     height: 171.5px;
     width: 171.5px;
   }
 
-  .product-scroll {
+  .song-scroll {
     margin-bottom: 18px;
   }
 
@@ -560,7 +560,7 @@ header {
     height: 848px;
   }
 
-  .product-content-wrapper {
+  .song-content-wrapper {
     height: 848px;
   }
 }
@@ -570,7 +570,7 @@ header {
     height: 1364px;
   }
 
-  .product-content-wrapper {
+  .song-content-wrapper {
     height: 1364px;
   }
 }
