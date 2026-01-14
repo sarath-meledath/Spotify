@@ -81,44 +81,44 @@ header {
   gap: 8px;
 }
 
-.song-heading-wrapper {
+.songs-heading-wrapper {
   padding-inline: 16px;
   padding-top: 24px;
   margin-bottom: 12px;
 }
 
-.song-section-heading {
+.playlist-container-heading {
   font-size: 20px;
   font-family: spotify-title;
 }
 
-.song-heading-wrapper a {
+.songs-show-link {
   display: none;
 }
 
-.song-scroll {
+.songs-list {
   display: flex;
   overflow-x: scroll;
   scrollbar-width: none;
   scroll-snap-type: x mandatory;
 }
 
-.song-card {
+.songs-card {
   display: flex;
   flex-direction: column;
   row-gap: 8px;
   padding: 8px;
 }
 
-.song-card:first-child {
+.songs-card:first-child {
   margin-inline-start: 8px;
 }
 
-.song-card:last-child {
+.songs-card:last-child {
   margin-inline-end: 8px;
 }
 
-.song-card img {
+.songs-card img {
   aspect-ratio: 1 / 1;
   object-fit: cover;
   border-radius: 4px;
@@ -126,16 +126,17 @@ header {
   width: 152px;
 }
 
-.song-details-wrapper p {
+.songs-details-para {
   font-family: spotify-regular;
   font-weight: 400;
+  text-overflow: ellipsis;
 }
 
 .side-navigation-bar {
   display: none;
 }
 
-.song-details {
+.songs-details {
   display: none;
 }
 
@@ -306,20 +307,14 @@ header {
     color: #ffffff;
   }
 
-  .side-navigation-heading h1 {
+  .library-heading {
     margin-inline-start: 4px;
     font-weight: 700;
     font-family: spotify-bold;
     font-size: 16px;
   }
 
-  .side-navigation-empty-div {
-    max-width: 100%;
-    margin: 8px 16px;
-    border: none;
-  } 
-
-  .side-navigation-heading button {
+  .library-heading-button {
     min-block-size: 35px;
     min-inline-size: 35px;
     background-color: transparent;
@@ -339,13 +334,7 @@ header {
     margin-top: 24px;
   }
 
-  .empty-div {
-    width: 100%;
-    height: 0;
-    border: none;
-  }
-
-  .side-navigation-song-card {
+  .side-navigation-songs-card {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -376,7 +365,7 @@ header {
     font-family: spotify-regular;
   }
 
-  .side-navigation-song-card button {
+  .side-navigation-card-button {
     font-weight: 700;
     font-size: 14px;
     font-family: spotify-bold;
@@ -388,21 +377,21 @@ header {
     min-block-size: 32px;
   }
 
-  .song-content-wrapper {
+  .songs-content-wrapper {
     overflow: auto;
     background-color: #121212;
     border-radius: 8px;
     height: 760px;
   }
 
-  .song-content {
+  .songs-content {
     overflow: hidden !important;
     overflow-y: scroll !important;
     padding: 0px 0px 32px;
     scrollbar-width: none;
   }
 
-  .song-heading-wrapper {
+  .songs-heading-wrapper {
     padding-inline: 40px;
     display: flex;
     justify-content: space-between;
@@ -410,11 +399,11 @@ header {
     margin-bottom: 8px;
   }
 
-  .song-section-heading {
+  .playlist-container-heading {
     font-size: 24px;
   }
 
-  .song-heading-wrapper a {
+  .songs-show-link {
     color: #b3b3b3;
     text-decoration: none;
     font-weight: 700;
@@ -427,19 +416,19 @@ header {
     top: 1px;
   }
 
-  .song-scroll {
+  .songs-scroll {
     margin-bottom: 10px;
   }
 
-  .song-card {
+  .songs-card {
     padding: 12px;
   }
 
-  .song-card:first-child {
+  .songs-card:first-child {
     margin-inline-start: 28px;
   }
 
-  .song-card img {
+  .songs-card img {
     height: 153.72px;
     width: 153.72px;
   }
@@ -448,19 +437,19 @@ header {
     border-radius: 90px !important;
   }
 
-  .song-details-wrapper {
+  .songs-details-wrapper {
     display: flex;
     flex-direction: column;
     gap: 4px;
   }
 
-  .song-details-wrapper p {
+  .songs-details-para {
     font-family: spotify-regular;
     font-size: 16px;
     font-weight: 400;
   }
 
-  .song-details {
+  .songs-details {
     display: flex;
     flex-wrap: wrap;
     font-family: spotify-regular;
@@ -469,12 +458,12 @@ header {
     line-height: 22px;
   }
 
-  .song-details a {
+  .artist-name {
     color: #b3b3b3;
     text-decoration: none;
   }
 
-  .song-details-name {
+  .songs-details-name {
     display: none;
   }
 }
@@ -521,19 +510,10 @@ header {
     border-inline-start: 1px solid #7c7c7c;
     padding-inline: 12px 0;
     height: 25.05px;
-  }
+  }  
 }
 
 @media screen and (min-width: 1440px) {
-  .song-card img {
-    height: 171.5px;
-    width: 171.5px;
-  }
-
-  .song-scroll {
-    margin-bottom: 18px;
-  }
-
   .side-navigation-bar {
     min-width: 420px;
   }
@@ -561,7 +541,7 @@ header {
     height: 848px;
   }
 
-  .song-content-wrapper {
+  .songs-content-wrapper {
     height: 848px;
   }
 }
@@ -571,7 +551,7 @@ header {
     height: 1364px;
   }
 
-  .song-content-wrapper {
+  .songs-content-wrapper {
     height: 1364px;
   }
 }
