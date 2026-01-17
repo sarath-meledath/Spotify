@@ -132,6 +132,12 @@ header {
   text-overflow: ellipsis;
 }
 
+.songs-details-name {
+  font-family: spotify-regular;
+  font-weight: 400;
+  text-overflow: ellipsis;
+}
+
 .footer-nav {
   padding: 8px 16px 40px;
   max-width: 100%;
