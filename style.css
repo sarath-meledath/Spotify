@@ -138,16 +138,9 @@ header {
   text-overflow: ellipsis;
 }
 
-.footer-nav {
+footer {
   padding: 8px 16px 40px;
   max-width: 100%;
-}
-
-.border-line-hr {
-  padding-bottom: 32px;
-  border: 0;
-  border-block-start: 1px solid #dedede;
-  border-color: rgba(255, 255, 255, 0.1);
 }
 
 .footer-wrapper {
@@ -197,15 +190,11 @@ header {
   border-radius: 80px;
 }
 
-.border-line {
-  margin-block-end: 21px;
+.footer-bottom {
+  padding-top: 37px;
   border: 0;
   border-block-start: 1px solid #dedede;
   border-color: rgba(255, 255, 255, 0.1);
-}
-
-.footer-bottom {
-  padding-top: 16px;
 }
 
 .side-navigation-footer-links-container {
@@ -719,16 +708,15 @@ header {
   }
 
   footer {
-    padding-top: 17px;
-  }
-
-  .footer-nav {
-    padding-top: 32px;
+    margin-top: 17px;
     padding-bottom: 40px;
   }
 
-  .border-line {
-    margin-bottom: 24px;
+  .footer-elements {
+    padding-top: 32px;
+    border: 0;
+    border-block-start: 1px solid #dedede;
+    border-color: rgba(255, 255, 255, 0.1);
   }
 
   .footer-copy-right-desktop {
@@ -738,7 +726,10 @@ header {
     font-weight: 400;
     font-family: spotify-regular;
     line-height: 19px;
-    padding-top: 17px;
+    padding-top: 41px;
+    border: 0;
+    border-block-start: 1px solid #dedede;
+    border-color: rgba(255, 255, 255, 0.1);
   }
 
   .footer-sign-up-bar {
@@ -801,9 +792,12 @@ header {
 }
 
 @media screen and (min-width: 1024px) {
+  footer {
+    padding-inline: 32px;
+  }
+
   .footer-elements {
     display: flex;
-    padding-inline: 16px;
   }
 
   .footer-wrapper {
@@ -812,10 +806,6 @@ header {
 
   .footer-social-media {
     margin-top: 32px;
-  }
-
-  .footer-bottom-last {
-    padding-inline: 16px;
   }
 }
 
