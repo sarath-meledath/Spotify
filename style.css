@@ -150,12 +150,8 @@ header {
   margin-top: 32px;
 }
 
-.footer-section {
- 
-}
-
 .footer-section-ul {
-   margin-right: 11px;
+  margin-right: 11px;
   margin-bottom: 32px;
   color: #b3b3b3;
   display: flex;
