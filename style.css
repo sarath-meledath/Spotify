@@ -240,9 +240,6 @@ header {
   color: #ffffff;
   text-decoration: none;
   padding-inline-end: 16px;
-}
-
-.cookies-link span {
   font-family: spotify-regular;
   font-size: 12px;
   font-weight: 400;
@@ -604,9 +601,6 @@ header {
 
   .cookies-link {
     display: block;
-  }
-
-  .cookies-link span {
     line-height: 20px;
   }
 
