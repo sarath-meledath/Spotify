@@ -204,11 +204,11 @@ header {
   padding-top: 16px;
 }
 
-.footer-bottom-container {
+.side-navigation-footer-links-container {
   text-align: start;
 }
 
-.footer-bottom-container-elements {
+.side-navigation-footer-links {
   display: flex;
   flex-wrap: wrap;
 }
@@ -317,7 +317,7 @@ header {
   display: none;
 }
 
-.side-navigation-bottom-footer {
+.side-navigation-footer {
   display: none;
 }
 
@@ -583,17 +583,17 @@ header {
     min-block-size: 32px;
   }
 
-  .side-navigation-bottom-footer {
+  .side-navigation-footer {
     display: block;
     margin: 32px 0;
     padding: 0 24px;
   }
 
-  .footer-bottom-container {
+  .side-navigation-footer-links-container {
     margin-block-end: 31px;
   }
 
-  .footer-bottom-container-elements {
+  .side-navigation-footer-links {
     margin-block-start: 32px;
   }
 
@@ -802,15 +802,13 @@ header {
     flex-flow: inherit;
   }
 
-  .footer-social-media{
+  .footer-social-media {
     margin-top: 32px;
   }
 
   .footer-bottom-last {
     padding-inline: 16px;
   }
-
-
 }
 
 @media screen and (min-width: 1069px) {
@@ -870,7 +868,7 @@ header {
     padding: 8px 16px;
   }
 
-  .library-heading-button-create {
+  .library-heading-create-button {
     color: #fff;
     font-family: spotify-bold;
     font-size: 14px;
@@ -884,9 +882,6 @@ header {
   .footer-section {
     width: 20%;
   }
-
-
-
 }
 
 @media screen and (min-width: 1723px) {
